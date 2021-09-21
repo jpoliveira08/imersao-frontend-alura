@@ -1,0 +1,52 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: linear-gradient(to bottom, #0d24ce, #4a5ce2);
+    background-attachment: fixed;
+    }
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    }
+.page-title {
+    color: #ffffff;
+    margin-top: 0 0 5px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #000000;
+    color: white;
+    border-style: outset;
+    border-color: #ffffff;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+  }
+  button:hover{
+    background-color: #fdfdfd;
+    border: 2px solid #000000;
+    color: #000000;
+    transition: all 0.4s ease-in;
+    transition-delay: 0.05s;
+  }
+
+h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #7ec8e3;
+}
+h3 {
+    color: #ffffff;
+    font-size: 30px;
+}
